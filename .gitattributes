@@ -1,0 +1,18 @@
+# Normalize line endings
+# Default behavior
+# See https://github.com/github/linguist
+public/* linguist-vendored
+
+*.bat text eol=crlf
+*.jpg binary
+src/**/*.ts linguist-detectable
+*.sh text eol=lf
+
+* text=auto
+
+src/**/*.tsx linguist-detectable
+
+node_modules/* linguist-vendored
+
+*.md linguist-documentation
+*.yaml linguist-detectable=false
